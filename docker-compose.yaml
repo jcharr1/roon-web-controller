@@ -5,3 +5,5 @@ services:
     container_name: roon-web-controller
     network_mode: host
     restart: unless-stopped
+    ports:
+      - "6002:8080"
