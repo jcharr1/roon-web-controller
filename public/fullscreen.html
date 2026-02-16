@@ -57,17 +57,40 @@
 
       #buttonMenu {
         position: absolute;
-        background-color: rgba(0, 0, 0, 0.33);
         color: #eff0f1;
         top: 0;
         right: 0;
-        height: 54px;
+        height: 33px;
         width: auto;
         z-index: 100;
         border: none;
-        border-radius: 0 0 0 10px;
       }
+
+
+      @media screen and (orientation:portrait) {
+
+        #buttonMenu {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 0 0 10px 10px;
+            opacity: 1;
+        }
+
+      }
+
+      @media screen and (orientation:landscape) {
+
+        #buttonMenu {
+            background-color: transparent;
+            border-radius: 0;
+            opacity: 0.4;
+        }
+      }
+
+
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">  
   </head>
   <body>
     <div id="nowPlaying" class="fullscreenFlex">
