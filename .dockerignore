@@ -1,0 +1,16 @@
+.git
+.gitignore
+.github
+node_modules
+npm-debug.log
+.env
+.env.local
+.DS_Store
+*.md
+CHANGELOG.md
+LICENSE
+.dockerignore
+Dockerfile
+docker-compose.yaml
+build_and_deploy.sh
+config/local.json*
