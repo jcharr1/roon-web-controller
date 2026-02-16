@@ -1,7 +1,7 @@
-version: '3'
+version: "3"
 services:
   roon-web-controller:
-    image: ghcr.io/jcharr1/roon-web-controller:master
+    image: ghcr.io/jcharr1/roon-web-controller:latest
     container_name: roon-web-controller
     restart: unless-stopped
     ports:
